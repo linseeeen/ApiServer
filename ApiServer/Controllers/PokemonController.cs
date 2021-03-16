@@ -8,7 +8,8 @@ namespace ApiServer.Controllers
     [Route("api/pokemon")]
     public class PokemonController: ControllerBase
     {
-        public ActionResult private void OnDrawGizmosSelected() 
+        [HttpGet]
+        public ActionResult Get() 
         {
             return Ok("Hej");
         }
